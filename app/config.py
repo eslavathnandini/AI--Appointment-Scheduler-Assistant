@@ -5,6 +5,7 @@ from typing import Optional
 class Settings(BaseSettings):
     ocr_api_key: str
     openai_api_key: Optional[str] = None
+    gemini_api_key: Optional[str] = None
     timezone: str = "Asia/Kolkata"
     
     class Config:
