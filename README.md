@@ -59,14 +59,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment Variables
-
-Edit `.env` file:
-```
-OCR_API_KEY=K84560877788957
-OPENAI_API_KEY=your-openai-api-key-here
-```
-
 ### 5. Run the Server
 
 ```bash
